@@ -1,10 +1,10 @@
 import React from 'react';
 import './App.css';
-//import './style.css';
+import './style.css';
 
 function App() {
   return ( < div className = "App" >
-    <div style={{border:'solid 1px black'}}>
+    <div style={{border:'solid 1px black', maxwidth:'100'}}>
     <h1 className = "title-red" > Jaballah Dorsaf </h1>
     <br/>
     <img src = "/imageInPublic.jpg"  alt="imagepublic" className="my-image" />
